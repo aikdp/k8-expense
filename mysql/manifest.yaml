@@ -33,7 +33,7 @@ spec:
   selector:
     app: mysql
     tier: db
-    project: expens
+    project: expense
   ports:
     - name: nginx-svc-port
       protocol: TCP
