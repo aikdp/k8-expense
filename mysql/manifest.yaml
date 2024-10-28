@@ -16,9 +16,10 @@ spec:
       project: expense
   template:
     metadata:
-      app: mysql
-      tier: db
-      project: expense
+      labels:
+        app: mysql
+        tier: db
+        project: expense
     spec:
       containers:
         - name: mysql
