@@ -40,13 +40,14 @@ apiVersion: v1
 kind: Service
 metadata:
   name: backend
+  namespace: expense
 spec:
   selector:
     app: backend
     tier: api
     project: expense
   ports:
-    - name: nginx-svc-port
+    - name: backend-port
       protocol: TCP
       port: 8080
       targetPort: 8080
