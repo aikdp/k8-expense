@@ -10,7 +10,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchcLabels:
+    matchLabels:
       app: mysql
       tier: db
       project: expense
