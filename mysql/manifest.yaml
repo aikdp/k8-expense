@@ -35,7 +35,7 @@ spec:
     tier: db
     project: expense
   ports:
-    - name: nginx-svc-port
+    - name: mysql-port
       protocol: TCP
       port: 3306 
       targetPort: 3306
