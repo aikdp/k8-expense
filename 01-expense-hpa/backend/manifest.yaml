@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kdprasad028/backend:v1
+          image: joindevops/backend:v1
           resources:    #adding resources limits to get HPA dpends on cpu utilisation and memory
             requests:
               cpu: 100m

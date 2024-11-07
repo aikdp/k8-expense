@@ -23,7 +23,8 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: kdprasad028/mysql:v1
+          # image: kdprasad028/mysql:v1
+          image: joindevops/mysql:v1
 ---
 apiVersion: v1
 kind: Service
