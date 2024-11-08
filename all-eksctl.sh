@@ -51,4 +51,7 @@ sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
 
+#Install k9s Tools
+curl -sS https://webinstall.dev/k9s | bash
+
 #last do AWS configure
