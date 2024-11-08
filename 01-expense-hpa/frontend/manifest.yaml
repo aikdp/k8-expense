@@ -23,8 +23,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          # image: joindevops/frontend:v1
-          image: kdprasad028/frontend:v1
+          image: joindevops/frontend:v1
+          # image: kdprasad028/frontend:v1
           resources:
             requests:
               cpu: 100m
