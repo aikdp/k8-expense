@@ -31,7 +31,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: joindevops/backend:v1
+          # image: joindevops/backend:v1
+          image: kdprasad028/backend:v1
           resources:    #adding resources limits to get HPA dpends on cpu utilisation and memory
             requests:
               cpu: 100m
@@ -59,7 +60,7 @@ spec:
       port: 8080
       targetPort: 8080
 ---
-#Adding HPA (this is new )
+#Added HPA 
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
