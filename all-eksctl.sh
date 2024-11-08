@@ -50,6 +50,10 @@ sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 #Kubernetes Metric Server Install
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
+#HElm install
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
 
 #Install k9s Tools
 curl -sS https://webinstall.dev/k9s | bash
